@@ -1,0 +1,1113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GANESH-Portfolio</title>
+
+
+  <!-- Style Sheet -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+
+
+  <!-- BOOTSTRAP LINK -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+
+  <!-- ICON LINKS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link rel=”stylesheet” href=”https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css” />
+  <!-- for all menu and arrow icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <!-- for quote left and right icon -->
+  <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+
+
+
+  <!-- GOOGLE-FONT API -->
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat'>
+  <link rel='stylesheet' href="https://fonts.googleapis.com/css?family=Tangerine">
+  <link rel='stylesheet' href="https://fonts.googleapis.com/css?family=font-effect-anaglyph">
+
+
+
+  <!-- AOS ANIMATION INITIALISE -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+</head>
+
+<body id="myPage" data-spy="scroll" data-offset="50" data-aos-easing="ease-in-out"
+  style="background-color: rgb(14, 30, 83);">
+
+  <!-- Popup container -
+      <div class="popup">
+    <div class="sign">
+      <svg width="327" height="102" viewBox="0 0 327 102" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M36.188 24.1707L27.8797 39.2114V24.1707L31.7895 14.0081H36.188V24.1707Z" />
+        <path
+          d="M147.128 74.9837L56.2256 101L52.3158 98.9675L90.4361 83.9268L136.376 74.9837H147.128L160.323 70.7154L173.519 66.4472L178.65 64.0081L173.519 69.2927L160.323 70.7154L147.128 74.9837Z" />
+        <path
+          d="M1 69.2927L27.8797 39.2114M27.8797 39.2114L36.188 24.1707V14.0081H31.7895L27.8797 24.1707V39.2114ZM24.9474 51.4065L27.8797 69.2927L31.7895 72.5447H36.188L42.5414 66.4472L49.3835 51.4065V37.1789L61.1128 20.9187L56.2256 72.5447L58.6692 77.8293L63.0677 79.0488L67.4662 72.5447L69.9098 64.0081L72.3534 48.1545L76.7519 44.0894L81.6391 51.4065L87.5038 37.1789H92.8797L97.2782 48.1545L104.12 31.8943L116.827 39.2114L119.759 35.1463L122.203 24.1707V44.0894L131.489 39.2114L136.376 31.8943V24.1707L142.241 28.2358V35.1463L144.684 24.1707L149.571 11.9756V1L157.88 31.8943L167.654 18.0732L173.519 14.0081L181.338 20.9187L187.692 26.2033L203.82 8.72358L206.263 11.9756V20.9187L199.91 39.2114L183.782 61.5691L178.65 64.0081M147.128 74.9837L56.2256 101L52.3158 98.9675L90.4361 83.9268L136.376 74.9837H147.128ZM147.128 74.9837L160.323 70.7154M160.323 70.7154L173.519 66.4472L178.65 64.0081M160.323 70.7154L173.519 69.2927L178.65 64.0081M187.692 61.5691L326 18.0732"
+          stroke="white" />
+      </svg>
+    </div>
+  </div>
+ Popup container -->
+
+
+
+
+
+  <!------------Header ------->
+  <header id="header" class="d-flex align-items-center active fixed-top">
+    <div class="container d-flex align-items-center justify-content-between logotext">
+
+
+      <h1><a href="index.html">Ganesh-Bisoi
+        </a></h1>
+
+      <nav id="navbar" class="navbar navbar-expand-sm">
+
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+
+            <ul class="navbar-nav">
+              <li class="nav-item"><a class="nav-link active" href="#about"><i class="bi bi-person-fill social"
+                    style="font-size: 17px ;"></i>
+                  &nbsp; ABOUT</a>
+              </li>
+
+              <li class="nav-item"><a class="nav-link" href="#skills"><i class="fa-solid fa-terminal social"
+                    style="font-size: 17px ;"></i>
+                  &nbsp;SKILLS</a>
+              </li>
+
+              <li class="nav-item"><a class="nav-link" href="#education"> <i
+                    class="fa-solid fa-graduation-cap social"></i>
+                  &nbsp; EDUCATION</a>
+              </li>
+
+              <li class="nav-item"><a class="nav-link" href="#projects"><i class="fa-solid fa-computer social"
+                    style="font-size: 17px ;"></i>
+                  &nbsp; PROJECTS</a></li>
+
+              <li class="nav-item"><a class="nav-link" href="#experience"><i class="fa fa-tasks social"
+                    style="font-size: 17px ;" aria-hidden="true"></i>
+                  &nbsp; EXPERIENCE</a></li>
+
+              <li class="nav-item"><a data-toggle="modal" data-target="#myModal2" class="nav-link" href="#resume"><i class="fa-solid fa-file social"></i>
+                  &nbsp; RESUME</a>
+              </li>
+
+              <li class="nav-item"><a class="nav-link" href="#contact"><i class="fa fa-phone social" aria-hidden="true"
+                    style="font-size: 17px ;"></i>
+                  &nbsp; CONTACT</a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+
+        <i class="bi bi-list"
+          style="margin: 0px 0px 0px 0px; border: 1px solid rgb(17, 36, 101);; padding: 10px 10px 10px 10px; font-size: 20px;">
+        </i>
+      </button>
+    </div>
+  </header>
+
+  <!-- Header -->
+
+
+  <main>
+    <section class="maincontainer1">
+      <div class="container main">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="section-title">
+              <span class="subtitle"><a href="mailto: ganesh999.gcb@gmail.com"
+                  style="text-decoration: none; color: white;">ganesh999.gcb@gmail.com</a></span>
+
+              <h1 style="text-align: center; font-weight:bolder;justify-content: center; color:white;">Hi
+                There!<span class="wave">👋🏻</span></h1>
+              <h2 class="css-typing">I'm
+                GANESH BISOI</h2>
+
+
+              <div class="wrapper" style="text-align: center;">
+                <div class="static-txt">
+                  <h1>I'm a</h1>
+                </div>
+                <ul class="dynamic-txts">
+                  <li><span>Web Designer</span></li>
+                  <li><span>Web Developer</span></li>
+                  <li><span>PHP Developer</span></li>
+                  <li><span>Freelancer</span></li>
+                </ul>
+              </div>
+              <h4 style="color: white;font-weight: bolder;"><i class="fa fa-map-marker" style="color:white;"
+                  aria-hidden="true"></i>&nbsp;&nbsp;Bhubaneswar, Odisha , India</h4>
+
+              <div class="content" style="margin: 39px 0px 0px -170px;">
+                <div class="button_su">
+                  <span class="su_button_circle">
+                  </span>
+                  <a href="#contact" class="button_su_inner">
+                    <span class="button_text_container">
+                      Get in touch
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+
+            <div class="images">
+              <img src="images/BG2.png" class="img-fluid"
+                style="border-radius: 50%; border: 5px solid white;max-width: 80%;">
+            </div>
+
+            <div class="social-icons">
+              <ul class="lines">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <div class="maincontainer2" id="about">
+      <div class="container">
+        <h2
+          style="text-align:left; color:white; font-weight: bolder;font-family:'Brush Script MT', cursive; letter-spacing: 3px;">
+          ABOUT</h2>
+        <div class="dez-separator-outer" style="text-align: left;margin: 0px 40px;">
+          <div class="dez-separator bg-white style-liner"></div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6" data-aos="fade-right" data-aos-delay="100" data-aos-duration="3000">
+            <div class="abimage" data-tilt>
+              <image src="images/picture.png" class="img-fluid"></image>
+            </div>
+          </div>
+          <div class="col-md-6" data-aos="fade-up" data-aos-delay="100" data-aos-duration="3000">
+
+            <div class="card-body" style="color: white; justify-content: center; text-align: justify;">
+              <blockquote class="blockquote mb-0">
+                <p style="text-align: justify;">Hello Everyone, I am <span style="color:#3191e3;">Ganesh Bisoi
+                  </span>from
+                  <span style="color:#3191e3;"> Bhubaneswar, India.</span>&nbsp;I am a <span
+                    style="color:#3191e3;">Full-stack web developer </span> with over 2 years experience in the
+                  industry. Skilled in a variety of programming languages,<span style="color:#3191e3;">including PHP,
+                    Codeigniter, Laravel, JavaScript, Node.js </span>and using frontend frameworks like <span
+                    style="color:#3191e3;">Angular, React.</span> Hold a Master's degree in Computer Science from
+                  GITA.
+                  Maintain several open source projects.<br><br>Apart
+                  from coding, some other activities that I love to do!
+                </p>
+
+                <ul style="list-style: none;">
+                  <li class="about-activity"><i class="fa-regular fa-hand-point-right"></i>&nbsp;&nbsp;Travelling</li>
+                  <li class="about-activity"><i class="fa-regular fa-hand-point-right"></i>&nbsp;&nbsp;Writting Coding
+                  </li>
+                  <li class="about-activity"><i class="fa-regular fa-hand-point-right"></i>&nbsp;&nbsp;Listining Music
+                  </li>
+                </ul>
+                <p style="color: #3191e3">"I will do something different for you guys!"</p>
+                <footer
+                  style="color: #ff3b0a;font-weight: bolder;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                  ----Ganesh</footer>
+              </blockquote>
+            </div>
+
+          </div>
+
+
+        </div>
+      </div>
+
+    </div>
+
+
+
+    <div class="maincontainer3" id="skills">
+
+      <div class="container blog">
+        <h2
+          style="text-align:left; color:white; font-weight: bolder;font-family: Brush Script MT; letter-spacing: 3px;">
+          MY SKILLS</h2>
+        <div class="dez-separator-outer" style="text-align: left;margin: 0px 40px;">
+          <div class="dez-separator bg-white style-liner"></div>
+        </div>
+
+        <div class="row">
+
+          <h6 style="color:white; font-weight: bolder; margin-top:50px;margin-bottom: 30px;text-transform: uppercase;">
+            Languages and
+            Tools</h6>
+          <div class="col-md-3 col-xs-12 adj" id="iconview" data-aos="fade-up" data-aos-delay="100"
+            data-aos-duration="1000">
+            <div class="single-post-wrapper">
+              <div class="post-thumb">
+                <a href="#" tabindex="0">
+                  <img src="images/html.png" class="img-fluid" alt=""
+                    style=" border-radius:50%;width: 60px; height:60px">
+                </a>
+              </div>
+              <div class="post-info text-center">
+                <a href="#" class="readmore-btn" tabindex="0" style=" text-decoration:none;color: white;
+              font-weight: bolder;font-size: 20px;">HTML</a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-3 col-xs-12 adj" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1500">
+            <div class="single-post-wrapper">
+              <div class="post-thumb">
+                <a href="#" tabindex="0">
+                  <img src="images/css.png" class="img-fluid" alt=""
+                    style=" border-radius:50%;width: 60px; height:60px">
+                </a>
+              </div>
+              <div class="post-info text-center">
+                <a href="#" class="readmore-btn" tabindex="0" style=" text-decoration:none;color: white;
+                font-weight: bolder;font-size:20px;">CSS</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-xs-12 adj" data-aos="fade-up" data-aos-delay="1100" data-aos-duration="2500">
+            <div class="single-post-wrapper">
+              <div class="post-thumb">
+                <a href="#" tabindex="0">
+                  <img src="images/boot.png" class="img-fluid" alt=""
+                    style=" border-radius:50%;width: 60px; height:60px">
+                </a>
+              </div>
+              <div class="post-info text-center">
+                <a href="#" class="readmore-btn" tabindex="0" style=" text-decoration:none;color: white;
+                font-weight: bolder;font-size:20px;">BOOTSTRAP</a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-3 col-xs-12 adj" data-aos="fade-up" data-aos-delay="1600" data-aos-duration="3000">
+            <div class="single-post-wrapper">
+              <div class="post-thumb">
+                <a href="#" tabindex="0">
+                  <img src="images/js.png" class="img-fluid" alt=""
+                    style=" border-radius:50%; width: 60px; height:60px">
+                </a>
+              </div>
+              <div class="post-info text-center">
+                <a href="#" class="readmore-btn" tabindex="0" style=" text-decoration:none;color: white;
+                font-weight: bolder;font-size:20px;">JS</a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-3 col-xs-12 adj" data-aos="fade-up" data-aos-delay="2100" data-aos-duration="3000"
+            style=" margin-top: 30px;">
+            <div class="single-post-wrapper">
+              <div class="post-thumb">
+                <a href="#" tabindex="0">
+                  <img src="images/php.png" class="img-fluid" alt=""
+                    style=" border-radius:50%;width: 80px; height:60px">
+                </a>
+              </div>
+              <div class="post-info text-center">
+                <a href="#" class="readmore-btn" tabindex="0" style=" text-decoration:none;color: white;
+                  font-weight: bolder;font-size:20px;">PHP</a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-3 col-xs-12 adj" style="margin-top: 30px;" data-aos="fade-up" data-aos-delay="2600"
+            data-aos-duration="2600">
+            <div class="single-post-wrapper">
+              <div class="post-thumb">
+                <a href="#" tabindex="0">
+                  <img src="images/node1.png" class="img-fluid" alt=""
+                    style=" border-radius:50%;width: 60px; height:60px">
+                </a>
+              </div>
+              <div class="post-info text-center">
+                <a href="#" class="readmore-btn" tabindex="0" style=" text-decoration:none;color: white;
+                font-weight: bolder;font-size:20px;">NODE.JS</a>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+
+
+      <div class="container blog2">
+        <div class="row">
+          <h6
+            style="color:white; font-weight: bolder; margin-top: 60px; margin-bottom: 60px; text-transform: uppercase;">
+            Libraries and
+            Frameworks</h6>
+
+          <div class="col-md-4 col-xs-12 " data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+            <div class="single-post-wrapper">
+              <div class="post-thumb">
+                <a href="#" tabindex="0">
+                  <img src="images/react.png" class="img-fluid" alt=""
+                    style="border-radius:50%;width: 60px; height:60px">
+                </a>
+              </div>
+              <div class="post-info text-center">
+                <a href="#" class="readmore-btn" style=" text-decoration:none;color: white;
+                font-weight: bolder;font-size: 20px;">REACT</a>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="col-md-4 col-xs-12 " data-aos="fade-up" data-aos-delay="600" data-aos-duration="2000">
+            <div class="single-post-wrapper">
+              <div class="post-thumb">
+                <a href="#" tabindex="0">
+                  <img src="images/angular.png" class="img-fluid" alt=""
+                    style=" border-radius:50%;width: 60px; height:60px">
+                </a>
+              </div>
+              <div class="post-info text-center">
+                <a href="#" class="readmore-btn" tabindex="0" style=" text-decoration:none;color: white;
+                  font-weight: bolder;font-size: 20px;;">ANGULAR</a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-4 col-xs-12 " data-aos="fade-up" data-aos-delay="1100" data-aos-duration="2000">
+            <div class="single-post-wrapper">
+              <div class="post-thumb">
+                <a href="#" tabindex="0">
+                  <img src="images/jquery-ar21.png" class="img-fluid" alt=""
+                    style=" border-radius:50%;width: 70px; height:60px">
+                </a>
+              </div>
+              <div class="post-info text-center">
+                <a href="#" class="readmore-btn" tabindex="0" style=" text-decoration:none;color: white;
+                  font-weight: bolder;font-size: 20px;">JQUERY</a>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+
+
+      <div class="container blog2" style="margin-top: 60px;margin-bottom: 60px;">
+        <div class="row">
+          <div class="col-md-6 col-xs-12 " data-aos="fade-up" data-aos-delay="1600" data-aos-duration="2000">
+            <div class="single-post-wrapper">
+              <div class="post-thumb">
+                <a href="#" tabindex="0">
+                  <img src="images/laravel.png" class="img-fluid" alt=""
+                    style=" border-radius:50%;width: 70px; height:60px">
+                </a>
+              </div>
+              <div class="post-info text-center">
+                <a href="#" class="readmore-btn" tabindex="0" style=" text-decoration:none;color: white;
+                  font-weight: bolder;font-size: 20px;">Laravel</a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-6 col-xs-12 " data-aos="fade-up" data-aos-delay="2100" data-aos-duration="2000">
+            <div class="single-post-wrapper">
+              <div class="post-thumb">
+                <a href="#" tabindex="0">
+                  <img src="images/code.png" class="img-fluid" alt=""
+                    style=" border-radius:50%;width: 70px; height:60px">
+                </a>
+              </div>
+              <div class="post-info text-center">
+                <a href="#" class="readmore-btn" tabindex="0" style=" text-decoration:none;color: white;
+                  font-weight: bolder;font-size: 20px;">Codeigniter</a>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+
+      <div class="container blog3">
+        <div class="row">
+          <h6
+            style="color:white; font-weight: bolder;  margin-top:60px;margin-bottom: 60px; text-transform: uppercase;">
+            Databases</h6>
+
+          <div class="col-md-6 col-xs-12 " data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+            <div class="single-post-wrapper">
+              <div class="post-thumb">
+                <a href="#" tabindex="0">
+                  <img src="images/mysql.png" class="img-fluid" alt=""
+                    style=" border-radius:50%;width: 60px; height:60px">
+                </a>
+              </div>
+              <div class="post-info text-center">
+                <a href="#" class="readmore-btn" tabindex="0" style=" text-decoration:none;color: white;
+                font-weight: bolder;font-size: 20px;">MYSQL</a>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="col-md-6 col-xs-12 " data-aos="fade-up" data-aos-delay="600" data-aos-duration="2000">
+            <div class="single-post-wrapper">
+              <div class="post-thumb">
+                <a href="#" tabindex="0">
+                  <img src="images/mongo1.png" class="img-fluid" alt=""
+                    style=" border-radius:50%;width: 60px; height:60px">
+                </a>
+              </div>
+              <div class="post-info text-center">
+                <a href="#" class="readmore-btn" tabindex="0" style=" text-decoration:none;color: white;
+                  font-weight: bolder;font-size: 20px;;">MONGODB</a>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+    </div>
+    </div>
+
+
+
+
+
+    <div class="maincontainer6" id="education">
+      <div class="container blog">
+        <h2
+          style="text-align:left; color:white; font-weight: bolder;font-family: Brush Script MT; letter-spacing: 3px;">
+          EDUCATION</h2>
+        <div class="dez-separator-outer" style="text-align: left;margin: 0px 40px;">
+          <div class="dez-separator bg-white style-liner"></div>
+        </div>
+        <div class="row" style="margin-top:50px;">
+          <div class="col-md-4" data-aos="flip-left" data-aos-delay="200" data-aos-duration="2000">
+            <a href="#">
+              <image src="images/gita.jpg" class="img-fluid" style="display: block;
+              margin-left: auto;
+              margin-right: auto;
+              width: 80%;border-radius:50%;max-width:80%;"></image>
+            </a>
+          </div>
+
+          <div class="col-md-8" data-aos="fade-right" data-aos-delay="200" data-aos-duration="3000">
+            <div class="body-header">
+              <div class="container bloghist">
+                <h2 style="color:white; font-size: 23px;">Gandhi institute of technology and advance</h2>
+                <h3 style="color:white;font-size: 18px;">MCA (Master In Computer Application)</h3>
+              </div>
+              <div class="body-header-duration">
+                <h3 class="duration" style="color:white; font-size: 18px;padding-right: 10px;
+              float: right;">2015 - 2017</h3>
+              </div>
+            </div>
+            <div class="container bloghist1">
+              <p class="content-list">⚡ I have studied basic software engineering
+                subjects like DS, Algorithms, DBMS, OS, CA, etc.</p>
+              <p class="content-list">⚡ I have studied basic software engineering
+                subjects like DS, Algorithms, DBMS, OS, CA, etc.</p>
+              <p class="content-list">⚡ I have studied basic software engineering
+                subjects like DS, Algorithms, DBMS, OS, CA, etc.</p>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="row" style="margin-top: 50px;">
+          <div class="col-md-4" data-aos="flip-left" data-aos-delay="300" data-aos-duration="3000">
+            <a href="#">
+              <image src="images/BCCST1.png" class="img-fluid" style="display: block;
+              margin-left: auto;
+              margin-right: auto;
+              width: 80%;border-radius:50%;max-width:80%;"></image>
+            </a>
+          </div>
+
+          <div class="col-md-8" data-aos="fade-right" data-aos-delay="300" data-aos-duration="3000">
+            <div class="body-header">
+              <div class="container bloghist">
+                <h2 style="color:white; font-size: 23px;">Bhubaneswar College of Computer Science and Technology</h2>
+                <h3 style="color:white;font-size: 18px;">BCA (Bachelor In Computer Application)</h3>
+              </div>
+              <div class="body-header-duration">
+                <h3 class="duration" style="color:white; font-size: 18px;padding-right: 10px;
+              float: right;">2012 - 2015</h3>
+              </div>
+            </div>
+            <div class="container bloghist1">
+              <p class="content-list">🔥I have studied basic
+                software engineering
+                subjects like DS, Algorithms, DBMS, OS, CA, etc.</p>
+              <p class="content-list">⚡ I have studied basic software engineering
+                subjects like DS, Algorithms, DBMS, OS, CA, etc.</p>
+              <p class="content-list">⚡ I have studied basic software engineering
+                subjects like DS, Algorithms, DBMS, OS, CA, etc.</p>
+            </div>
+          </div>
+
+        </div>
+
+
+
+
+
+        <div class="row" style="margin-top: 50px;">
+          <div class="col-md-4" data-aos="flip-left" data-aos-delay="300" data-aos-duration="3000">
+            <a href="#">
+              <image src="images/plustwo.jpg" class="img-fluid" style="display: block;
+              margin-left: auto;
+              margin-right: auto;
+              width: 80%;border-radius:50%;max-width:80%;"></image>
+            </a>
+          </div>
+
+          <div class="col-md-8" data-aos="fade-right" data-aos-delay="300" data-aos-duration="3000">
+            <div class="body-header">
+              <div class="container bloghist">
+                <h2 style="color:white; font-size: 23px;">Bijupattnaik College of Science & Education</h2>
+              </div>
+              <div class="body-header-duration">
+                <h3 class="duration" style="color:white; font-size: 18px;padding-right: 10px;
+              float: right;">2010 - 2012</h3>
+              </div>
+            </div>
+            <div class="container bloghist1">
+              <p class="content-list">🔥I have studied basic
+                software engineering
+                subjects like DS, Algorithms, DBMS, OS, CA, etc.</p>
+
+            </div>
+          </div>
+
+        </div>
+
+
+
+
+
+        <div class="row" style="margin-top: 50px;">
+          <div class="col-md-4" data-aos="flip-left" data-aos-delay="300" data-aos-duration="3000">
+            <a href="#">
+              <image src="images/tenth.jpg" class="img-fluid" style="display: block;
+              margin-left: auto;
+              margin-right: auto;
+              width: 80%;border-radius:50%;max-width:80%;"></image>
+            </a>
+          </div>
+
+          <div class="col-md-8" data-aos="fade-right" data-aos-delay="300" data-aos-duration="3000">
+            <div class="body-header">
+              <div class="container bloghist">
+                <h2 style="color:white; font-size: 23px;">GOVT. Boys Gigh School, Unit-IX</h2>
+              </div>
+              <div class="body-header-duration">
+                <h3 class="duration" style="color:white; font-size: 18px;padding-right: 10px;
+              float: right;">2010</h3>
+              </div>
+            </div>
+            <div class="container bloghist1">
+              <p class="content-list">🔥I have studied basic
+                software engineering
+                subjects like DS, Algorithms, DBMS, OS, CA, etc.</p>
+
+            </div>
+          </div>
+
+        </div>
+
+
+
+
+      </div>
+    </div>
+
+
+
+
+    <section>
+      <div class="maincontainer4" id="projects">
+        <h2
+          style="text-align:left; margin-left: 37px;color:white; font-weight: bolder;font-family:'Brush Script MT', cursive; letter-spacing: 3px;">
+          COMPLETED PROJECTS</h2>
+        <div class="dez-separator-outer" style="text-align: left;margin: 0px 40px;">
+          <div class="dez-separator bg-white style-liner" style="margin-left:30px;"></div>
+        </div>
+        <div class="container-fluid blog">
+
+
+
+          <div class="slider">
+            <div class="slide-track">
+              <!-- 1st slider itme -->
+              <div class="slide">
+                <img src="images/logo1.jpeg">
+              </div>
+
+              <div class="slide">
+                <img src="images/logo2.png">
+              </div>
+
+              <div class="slide">
+                <img src="images/logo3.png">
+              </div>
+
+              <div class="slide">
+                <img src="images/logo4.jpg">
+              </div>
+
+              <div class="slide">
+                <img src="images/logo5.png">
+              </div>
+
+              <div class="slide">
+                <img src="images/logo6.png">
+              </div>
+
+
+              <!-- 2nd slider itmes -->
+
+              <div class="slide">
+                <img src="images/logo1.jpeg">
+              </div>
+
+              <div class="slide">
+                <img src="images/logo2.png">
+              </div>
+
+              <div class="slide">
+                <img src="images/logo3.png">
+              </div>
+
+              <div class="slide">
+                <img src="images/logo4.jpg">
+              </div>
+
+              <div class="slide">
+                <img src="images/logo5.png">
+              </div>
+
+              <div class="slide">
+                <img src="images/logo6.png">
+              </div>
+
+
+              <!-- 3rd slider itmes -->
+
+              <div class="slide">
+                <img src="images/logo1.jpeg">
+              </div>
+
+              <div class="slide">
+                <img src="images/logo2.png">
+              </div>
+
+              <div class="slide">
+                <img src="images/logo3.png">
+              </div>
+
+              <div class="slide">
+                <img src="images/logo4.jpg">
+              </div>
+
+              <div class="slide">
+                <img src="images/logo5.png">
+              </div>
+
+              <div class="slide">
+                <img src="images/logo6.png">
+              </div>
+
+            </div>
+
+          </div>
+
+
+
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+    <div class="maincontainer5" style="margin-top:150px;" id="experience">
+      <div class="container blog">
+        <h2
+          style="text-align:left; color:white; font-weight: bolder;font-family: Brush Script MT; letter-spacing: 3px;">
+          EXPERIENCE</h2>
+
+        <div class="dez-separator-outer" style="text-align: left;margin: 0px 40px;">
+          <div class="dez-separator bg-white style-liner"></div>
+
+          <div class="row">
+
+            <div class="col-md-6" data-aos="fade-right" data-aos-delay="100" data-aos-duration="3000">
+
+              <div class="card-body" style="color: white; justify-content: center; text-align: justify;">
+                <blockquote class="blockquote mb-0">
+                  <p style="text-align: justify;">
+                    Work, Internship,
+                    I have worked with Designer and Software Architect. I have also worked with some well established
+                    companies mostly as AI Developer. I love organising events and that is why I am also involved with
+                    many opensource communities as a representative.</p>
+              </div>
+
+            </div>
+
+
+            <div class="col-md-6" data-aos="fade-up" data-aos-delay="100" data-aos-duration="3000">
+              <div class="abimage" data-tilt>
+                <image src="images/exp.png" class="img-fluid"></image>
+              </div>
+            </div>
+
+          </div>
+
+
+          <div class="row">
+            <div class="experience-accord">
+              <ul data-baseweb="accordion" class="ae af ag ah ai aj">
+
+                <li class="ae aj">
+                  <div tabindex="0" role="button" aria-expanded="false"
+                    class="ak al am an ao ap aq ar as at au ag av aw ax ay az b0 b1 b2 b3 b4 b5 b6 b7">Work<svg
+                      data-baseweb="icon" viewBox="0 0 24 24" class="b8 b9 ba bb bc ap">
+                      <title>Expand</title>
+                      <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M12 5C12.5523 5 13 5.44772 13 6V11L18 11C18.5523 11 19 11.4477 19 12C19 12.5523 18.5523 13 18 13L13 13V18C13 18.5523 12.5523 19 12 19C11.4477 19 11 18.5523 11 18V13L6 13C5.44772 13 5 12.5523 5 12C5 11.4477 5.44771 11 6 11L11 11V6C11 5.44772 11.4477 5 12 5Z">
+                      </path>
+                    </svg></div>
+                  <div class="bd be bf an aq ba bg bh bi bj ag af aw ax bk bl bm bn bo bp bq br"></div>
+                </li>
+
+                <li class="ae aj">
+                  <div tabindex="0" role="button" aria-expanded="false"
+                    class="ak al am an ao ap aq ar as at au ag av aw ax ay az b0 b1 b2 b3 b4 b5 b6 b7">Internships<svg
+                      data-baseweb="icon" viewBox="0 0 24 24" class="b8 b9 ba bb bc ap">
+                      <title>Expand</title>
+                      <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M12 5C12.5523 5 13 5.44772 13 6V11L18 11C18.5523 11 19 11.4477 19 12C19 12.5523 18.5523 13 18 13L13 13V18C13 18.5523 12.5523 19 12 19C11.4477 19 11 18.5523 11 18V13L6 13C5.44772 13 5 12.5523 5 12C5 11.4477 5.44771 11 6 11L11 11V6C11 5.44772 11.4477 5 12 5Z">
+                      </path>
+                    </svg></div>
+                  <div class="bd be bf an aq ba bg bh bi bj ag af aw ax bk bl bm bn bo bp bq br"></div>
+                </li>
+                
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+
+
+
+
+
+        <div class="maincontainer5" style="margin-top:150px;" id="resume">
+          <div class="container blog">
+            <h2
+              style="text-align:left; color:white; font-weight: bolder;font-family: Brush Script MT; letter-spacing: 3px;">
+              RESUME</h2>
+            <div class="dez-separator-outer" style="text-align: left;margin: 0px 40px;">
+              <div class="dez-separator bg-white style-liner"></div>
+              <div class="row">
+
+                <div class="col-md-6" style="text-align:center; position: relative;"><a role="button" tabindex="0"
+                    href="pdf/Ganesh CV.pdf" download="pdf/Ganesh CV.pdf" target="_blank" class="btn btn-default"
+                    style="max-width: 250px;background-color: rgb(10, 176, 206); color: white;"><svg
+                      stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em"
+                      width="1em" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M505.7 661a8 8 0 0 0 12.6 0l112-141.7c4.1-5.2.4-12.9-6.3-12.9h-74.1V168c0-4.4-3.6-8-8-8h-60c-4.4 0-8 3.6-8 8v338.3H400c-6.7 0-10.4 7.7-6.3 12.9l112 141.8zM878 626h-60c-4.4 0-8 3.6-8 8v154H214V634c0-4.4-3.6-8-8-8h-60c-4.4 0-8 3.6-8 8v198c0 17.7 14.3 32 32 32h684c17.7 0 32-14.3 32-32V634c0-4.4-3.6-8-8-8z">
+                      </path>
+                    </svg>&nbsp;Download CV</a>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="col-md-6 ownresume"
+                    style="text-align:center; justify-content: center; position: relative;">
+                    <a role="button" tabindex="0" href="resume-format.html" download="#" target="_blank"
+                      class="btn btn-default"
+                      style="max-width: 250px;background-color: rgb(10, 176, 206); color: white;"><i
+                        class="fa-solid fa-file"></i>&nbsp;Create your own resume template</a>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <div class="maincontainer7" id="contact">
+          <div class="container blog">
+            <h2
+              style="text-align:left; color:white; font-weight: bolder;font-family: Brush Script MT; letter-spacing: 3px;">
+              CONTACT</h2>
+            <div class="dez-separator-outer" style="text-align: left;margin: 0px 40px;">
+              <div class="dez-separator bg-white style-liner"></div>
+
+              <div class="row">
+                <div class="contact-box">
+                  <div class="contact-links">
+                    <h2>GET IN TOUCH</h2>
+                    <div class="links">
+                      <div class="link">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                      </div>
+                      <div class="link">
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                      </div>
+                      <div class="link">
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                      </div>
+                      <div class="link">
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="contact-form-wrapper">
+                    <form>
+                      <div class="form-item">
+                        <input type="text" id="name" name="name" autocomplete="off" required>
+                        <label>Name:</label>
+                      </div>
+                      <div class="form-item">
+                        <input type="text" id="email" name="email" autocomplete="off" required>
+                        <label>Email:</label>
+                      </div>
+                      <div class="form-item">
+                        <textarea class="" id="message" name="message" autocomplete="off" required></textarea>
+                        <label>Message:</label>
+                      </div>
+                      <button class="submit-btn">Send</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="row">
+                <div class="servicess">
+                  <div class="container">
+                    <div class="row">
+
+                      <div class="col-md-4 col-xs-12 shw_footer_grid_left con">
+                        <div class="wthree_footer_grid_left">
+                          <i class="bi-pin-map-fill"></i>
+                        </div>
+                        <p style="color: white;"> Plot No -AE-104, VSS Nagar,Bhubaneswar - 751007,Near
+                          akhandalamani
+                          temple</p>
+                      </div>
+                      <div class="col-md-4 col-xs-12 shw_footer_grid_left con">
+                        <div class="wthree_footer_grid_left">
+                          <i class="bi bi-telephone-fill"></i>
+                        </div>
+                        <p style="color: white;"><a href="tel:+918280117984" style="color: white"> +91 8280117984
+                            /</a> <a href="tel:+918249366132" style="color: white"> 8249366132</a></p>
+                      </div>
+                      <div class="col-md-4 col-xs-12 shw_footer_grid_left con">
+                        <div class="wthree_footer_grid_left">
+                          <i class="bi bi-envelope"></i>
+                        </div>
+                        <p style="color: white;"> <a href="mailto:ganesh999.gcb@gmail.com"
+                            style="color: white">ganesh999.gcb@gmail.com</a>
+                        </p>
+                      </div>
+
+                      <div class="clearfix"> </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+
+
+
+        <div class="footer" style="background-color: #0b1e54; padding-top: 20px;">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-5 copy-right">
+                <p>Designed and Developed by Ganesh Chandra Bisoi</p>
+              </div>
+              <div class="col-md-3 copy-right">
+                <p>Copyright &copy; 2024 Ganesh Chandra Bisoi</p>
+              </div>
+              <div class="footer-body copy-right col-md-4">
+                <ul class="footer-icons" style="list-style: none;
+            display: flex;
+           ">
+                  <li class="social"><a href="#"><i class="fa fa-facebook" style="color: white;"></i></a></li>
+                  <li class="social"><a href="#"><i class="fa fa-twitter" style="color: white;"></i></a></li>
+                  <li class="social"><a href="#"><i class="fa fa-linkedin" style="color: white;"></i></a></li>
+                  <li class="social"><a href="#"><i class="fa fa-instagram" style="color: white;"></i></a></li>
+                  <li class="social"><a href="#"><i class="fa fa-youtube" style="color: white;"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+  </main>
+
+
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <a href="https://api.whatsapp.com/send?phone=8280117984" class="float" target="_blank">
+    <i class="fa fa-whatsapp my-float"></i>
+  </a>
+  </div>
+
+
+  <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+    <i class="fa-solid fa-arrow-up"></i>
+  </a>
+
+
+
+  <!-- modal -->
+  <div class="modal fade" id="myModal2" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- modal content -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Login Form</h4>
+        </div>
+
+
+
+
+        <div class="modal-body">
+          <div class="row ranga" style="background-color: pink;">
+
+            <div class="col-md-5 u-login">
+              <h3>Registration Form</h3>
+            </div>
+
+
+            <div class="col-md-7 r-form">
+              <form action="/action_page.php">
+                <div class="form-group">
+                  <label for="email">Name:</label>
+                  <input type="email" class="form-control" id="email">
+                </div>
+                <div class="form-group">
+                  <label for="pwd">Mobile No:</label>
+                  <input type="password" class="form-control" id="pwd">
+                </div>
+                <div class="form-group">
+                  <label for="email">Email address:</label>
+                  <input type="email" class="form-control" id="email">
+                </div>
+                <div class="form-group">
+                  <label for="pwd">Password:</label>
+                  <input type="password" class="form-control" id="pwd">
+                </div>
+                <div class="form-group">
+                  <label for="email">Confirm Password:</label>
+                  <input type="email" class="form-control" id="email">
+                </div>
+                <div class="checkbox">
+                  <label><input type="checkbox"> Remember me</label>
+                </div>
+              </form>
+            </div>
+            <button type="button" class="btn1 btn-info btn-lg" data-toggle="modal"
+              data-target="#myModal">Resgister</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+
+
+
+
+</body>
+<!-- Jquery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- script -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+
+<script src="js/script.js"></script>
+<script src="js/aos.js"></script>
+<script src="js/tilt.jquery.js"></script>
+<script src="js/nav.js"></script>
+<script src="js/popup.js"></script>
+<script src="js/sc.js"></script>
+<script src="js/slick.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</html>
